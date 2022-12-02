@@ -13,7 +13,6 @@ import { AngularFireAuth } from '@angular/fire/compat/auth';
 })
 
 export class BoardListComponent implements OnInit, OnDestroy {
-  board!: Board;
   boards!: Board[];
   sub!: Subscription;
 
