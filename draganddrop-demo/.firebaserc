@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "first-project-1ee7e": {
+      "hosting": {
+        "draganddrop-demo": [
+          "first-project-1ee7e"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "first-project-1ee7e"
+  }
+}
