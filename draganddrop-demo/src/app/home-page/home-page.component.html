@@ -1,1 +1,25 @@
-<h1>This is my home page!</h1>
+<section class="welcomePage">
+    <div class="header">
+        <h1 @fadeInFromTop class="heading">Be in control of your time</h1>
+    </div>
+    <div class="content">
+        <div @fadeInfromLeft class="left">
+            <h2>What is a Kanban board?</h2>
+            <p>A Kanban board is a visualization tool that enables you to optimize the flow of your work.</p>
+            <p>Using a Kanban board to manage work across your team or organization can:</p>
+            <p><span class="pros"> Promote focus. Boost productivity. Increase visibility.</span></p>
+        </div>
+        <div @fadeInfromRight class="right">
+            <h2>Login to test the Kanban Task Manager that I've created</h2>
+            <p>or simply connect with your Google account</p>
+            <button type="button" class="btn btn-outline-warning" (click)="navigateLogin()">Login</button>
+        </div>
+    </div>
+    <div @fadeInfromBottom class="example">
+        <img class="image" src="../../assets/example.png" alt="kanban" crossorigin="anonymous"/>
+    </div>
+
+    <div class="footer">
+        <p class="sign">Proudly made by Momčilo ©</p>
+    </div>
+</section>
